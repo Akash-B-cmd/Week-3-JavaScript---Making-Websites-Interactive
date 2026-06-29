@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Carter | Creative Developer Portfolio</title>
+    <!-- Link to custom CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to custom JavaScript script -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header Section with Sticky Navigation -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">Alex.Dev</a>
+            <div class="header-right">
+                <nav id="nav-menu">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#playground">Playground</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="header-actions">
+                    <button id="theme-toggle" aria-label="Toggle theme" class="theme-btn">
+                        <!-- Sun Icon (visible in dark mode) -->
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+                        </svg>
+                        <!-- Moon Icon (visible in light mode) -->
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                        </svg>
+                    </button>
+                    <button id="mobile-menu-toggle" aria-label="Toggle navigation menu" class="hamburger-btn">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Layout Container -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-container">
+            <div class="hero-content">
+                <span class="hero-tag">Available for Projects</span>
+                <h1>Building Clean, Modern <span>Web Interfaces</span></h1>
+                <p class="hero-desc">
+                    Hi! I'm Alex Carter, an aspiring web developer. I focus on writing clean, semantic HTML5, beautiful CSS3, and creating accessible, responsive websites.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#skills" class="btn btn-secondary">View My Skills</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="images/profile.png" alt="Alex Carter's professional illustration portrait" class="hero-image">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <p>
+                        I am currently taking my first steps in web development. I believe that building great user experiences starts with a solid foundation in core technologies: HTML, CSS, and JavaScript. I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+                    </p>
+                    <p>
+                        My journey started with a curiosity about how the web works, which quickly turned into a passion for crafting interactive layouts. In my free time, I write clean markup, experiment with new CSS styling techniques, and learn how to build accessible websites for everyone.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-num">3+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">100+</div>
+                        <div class="stat-label">Hours of Coding</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section (Show/Hide Accordion) -->
+        <section id="faq">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-card">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is your primary area of expertise?</span>
+                        <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>I specialize in frontend web development, focusing on crafting responsive, high-performance, and visually stunning web interfaces with clean HTML, CSS, and interactive JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-card">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you work with modern frameworks?</span>
+                        <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Yes! While I believe in having a rock-solid foundation in core HTML5, CSS3, and vanilla JavaScript, I also develop applications using modern frameworks like React, Next.js, and Vue when projects demand complex state management.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-card">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is your approach to responsive web design?</span>
+                        <svg class="faq-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>I build interfaces using a mobile-first philosophy, utilizing CSS Flexbox and Grid. I use relative sizing units (rem, em, vh, vw) and media queries to ensure layouts adapt fluidly to screen sizes from phones to desktop monitors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section (Interactive Slider) -->
+        <section id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="slider-container">
+                <div class="slider-track-wrapper">
+                    <div class="slider-track" id="project-track">
+                        <!-- Project Slide 1 -->
+                        <div class="slider-slide">
+                            <div class="gallery-item">
+                                <img src="images/project1.png" alt="Creative Agency Landing Page Mockup">
+                                <div class="gallery-overlay">
+                                    <h3>Agency Landing Page</h3>
+                                    <p>A modern design featuring custom CSS grids and animations.</p>
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="gallery-link">View Code &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project Slide 2 -->
+                        <div class="slider-slide">
+                            <div class="gallery-item">
+                                <img src="images/project2.png" alt="SaaS Analytics Dashboard Mockup">
+                                <div class="gallery-overlay">
+                                    <h3>Analytics Dashboard</h3>
+                                    <p>A functional analytics interface with custom glass panels.</p>
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="gallery-link">View Code &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project Slide 3 -->
+                        <div class="slider-slide">
+                            <div class="gallery-item">
+                                <img src="images/project3.png" alt="E-Commerce Mobile Application Mockup">
+                                <div class="gallery-overlay">
+                                    <h3>E-Commerce Mobile UI</h3>
+                                    <p>A beautiful product interaction card for mobile devices.</p>
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="gallery-link">View Code &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slider Controls -->
+                <button class="slider-arrow prev" id="slider-prev" aria-label="Previous Slide">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <button class="slider-arrow next" id="slider-next" aria-label="Next Slide">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+                
+                <!-- Slider Indicators -->
+                <div class="slider-indicators" id="slider-indicators">
+                    <button class="indicator active" data-slide="0" aria-label="Go to slide 1"></button>
+                    <button class="indicator" data-slide="1" aria-label="Go to slide 2"></button>
+                    <button class="indicator" data-slide="2" aria-label="Go to slide 3"></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <!-- Frontend Skills -->
+                <div class="skills-category">
+                    <h3>Frontend Development</h3>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5 (Semantic Markup)</span>
+                                <span class="skill-pct">90%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3 (Grid, Flexbox, Animation)</span>
+                                <span class="skill-pct">85%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 85%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">Responsive Web Design</span>
+                                <span class="skill-pct">80%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Tools & Frameworks -->
+                <div class="skills-category">
+                    <h3>Workflow & Tools</h3>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">VS Code Development</span>
+                                <span class="skill-pct">95%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 95%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">Git & GitHub Version Control</span>
+                                <span class="skill-pct">75%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span class="skill-name">Command Line Interface (CLI)</span>
+                                <span class="skill-pct">70%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Playground Section (To-Do sandbox) -->
+        <section id="playground">
+            <h2 class="section-title">Interactive Playground</h2>
+            <p class="playground-desc" style="color: var(--text-secondary); margin-bottom: 2.5rem; font-size: 1.1rem; max-width: 700px;">
+                Explore a live interactive widget demonstrating state management, local storage synchronization, DOM insertion/deletion, and micro-animations built entirely in vanilla JavaScript.
+            </p>
+            <div class="todo-container">
+                <div class="todo-card">
+                    <div class="todo-card-header">
+                        <h3>Developer To-Do Planner</h3>
+                        <span class="todo-count" id="todo-count">0 tasks remaining</span>
+                    </div>
+                    
+                    <form id="todo-form" class="todo-form">
+                        <input type="text" id="todo-input" class="form-control" placeholder="What are you building next? (e.g., Integrate API endpoints)" required autocomplete="off">
+                        <button type="submit" class="btn btn-primary">Add Task</button>
+                    </form>
+                    
+                    <div class="todo-list-container">
+                        <ul id="todo-list" class="todo-list">
+                            <!-- Tasks injected dynamically by JS -->
+                        </ul>
+                        <div id="todo-empty" class="todo-empty">
+                            <span class="todo-empty-icon">📝</span>
+                            <p>All caught up! Type a task above to schedule a development item.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div>
+                        <p class="contact-info-desc">
+                            Have a question or want to work together? Feel free to drop a message in the form, or reach out directly via my email or social links.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">✉</div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <p>alex.carter@example.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>San Francisco, CA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Contact Form -->
+                <div class="contact-form-card">
+                    <form id="contact-form" action="#" method="POST" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required minlength="2">
+                            <span class="error-message" id="name-error" aria-live="polite"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="name@example.com" required>
+                            <span class="error-message" id="email-error" aria-live="polite"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Tell me about your project..." required minlength="10"></textarea>
+                            <span class="error-message" id="message-error" aria-live="polite"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <span class="footer-logo">Alex.Dev</span>
+            <p>&copy; 2026 Alex Carter. Built with HTML5 & CSS3.</p>
+            <div class="footer-socials">
+                <a href="https://github." target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script code migrated to external script.js -->
+
+</body>
+</html>

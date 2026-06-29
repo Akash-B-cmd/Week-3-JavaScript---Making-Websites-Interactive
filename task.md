@@ -1,0 +1,26 @@
+# Tasks Checklist - JavaScript Interactive Portfolio
+
+- `[x]` **Setup & Migration**
+  - `[x]` Create [script.js](file:///c:/Users/24r11/OneDrive/Documents/Week%201%20%28wt%29/script.js) with console verification log.
+  - `[x]` Remove inline script tags from [index.html](file:///c:/Users/24r11/OneDrive/Documents/Week%201%20%28wt%29/index.html) and link [script.js](file:///c:/Users/24r11/OneDrive/Documents/Week%201%20%28wt%29/script.js) using the `defer` keyword.
+  - `[x]` Move existing theme management and mobile navigation functions to `script.js`.
+- `[x]` **HTML Structure Enhancements**
+  - `[x]` Add FAQ accordion section to `index.html` (for show/hide requirement).
+  - `[x]` Restructure the Projects section in `index.html` to a slider layout wrapper with action controls.
+  - `[x]` Add the Playground section in `index.html` containing the To-Do list dashboard.
+  - `[x]` Integrate input helper message tags for field-level error messages in the contact form.
+- `[x]` **CSS Layout & Styling Updates**
+  - `[x]` Add styling variables and helper utilities for errors/alerts in [style.css](file:///c:/Users/24r11/OneDrive/Documents/Week%201%20%28wt%29/style.css).
+  - `[x]` Style the FAQ accordion wrapper, items, titles, chevron rotates, and transitions.
+  - `[x]` Style the spotlight Project slider elements (track translates, next/prev arrow buttons, status dots).
+  - `[x]` Style the To-Do task application dashboard with glassmorphism lists, scrollbars, delete indicators.
+  - `[x]` Style real-time input error notifications and focus invalid glows.
+- `[x]` **JavaScript Implementation**
+  - `[x]` Implement FAQ accordion show/hide collapsible toggling.
+  - `[x]` Implement project slider calculations, dot indicator syncing, and translation scroll actions.
+  - `[x]` Implement interactive To-Do operations (add tasks, check-off tasks, delete tasks, persist in local storage).
+  - `[x]` Implement robust form validation with real-time field status checking on `input` and `blur` events.
+- `[x]` **Verification & Documentation**
+  - `[x]` Verify all interactive modules function error-free in the browser console.
+  - `[x]` Update [README.md](file:///c:/Users/24r11/OneDrive/Documents/Week%201%20%28wt%29/README.md) with details on new JavaScript structures and testing.
+  - `[x]` Create final [walkthrough.md](file:///C:/Users/24r11/.gemini/antigravity/brain/28daae25-0cd0-449e-b296-a834b659e8ff/walkthrough.md) artifact summarizing changes.
